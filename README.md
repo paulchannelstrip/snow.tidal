@@ -9,7 +9,9 @@ Produces a random ASCII art snowstorm in the GHCi REPL output (the Tidal post wi
 ## Installation
 1. Put the `snow.hs` file somewhere safe. I recommend having a directory for your Tidal scripts.
 2. Source the `snow.hs` file from your `boottidal.hs` or `Tidal.ghci` by adding the following line:
-> :script /full/path/to/snow.hs
+```haskell
+:script /full/path/to/snow.hs
+```
 
 ## Usage
 1. Evaluate `snow`.
